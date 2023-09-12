@@ -1,6 +1,6 @@
 # CyAttack
 
-CyAttack: dashboard displaying the recent cyber attacks made across the internet.
+CyAttack: dashboard displaying the recent cyber attacks made across the internet.  
 Deployed app link: https://cyattack.netlify.app/
 ![image](https://github.com/AmitAkuka/CyAttack/assets/102300284/e0f6a1f4-e2a1-4d69-acdd-d352167740a8)
 
