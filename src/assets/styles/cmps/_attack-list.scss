@@ -1,0 +1,42 @@
+.attack-list-main-container {
+  position: fixed;
+  bottom: 50px;
+  z-index: 9999;
+  color: white;
+  background-color: gray;
+  opacity: 0.8;
+  padding: 16px;
+  border-radius: 5px;
+  align-self: center;
+
+  & > .attack-headers-main-container {
+    & > p {
+      color: black;
+      font-weight: 800;
+    }
+  }
+  & > .attack-preview-main-container,
+  .attack-headers-main-container {
+    display: flex;
+
+    & > p {
+      font-size: $font-size-small;
+      flex-grow: 1;
+    }
+
+    & > p:nth-child(1) {
+      min-width: $atk-min-width-wide;
+    }
+
+    & > p:nth-child(6) {
+      min-width: $atk-min-width-narrow;
+    }
+    & > p:nth-child(7) {
+      min-width: $atk-min-width-very-narrow;
+    }
+
+    & > p:not(:nth-child(1)):not(:nth-child(6)):not(:nth-child(7)) {
+      min-width: $atk-min-width-medium;
+    }
+  }
+}
