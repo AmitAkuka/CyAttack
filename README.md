@@ -9,6 +9,9 @@ Deployed app link: https://cyattack.netlify.app/
 CyAttack is a coding challenge that I've chosen to participate in.
 
 ### Installation
+
 Git clone
+
 npm install
+
 npm run dev
